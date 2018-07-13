@@ -1,0 +1,510 @@
+/* General effects*/
+html,
+body {
+ height: 100%;
+}
+
+body {
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/90/42/3457dce0f21d524.jpg") center fixed;
+    margin: 0 auto;
+    text-align: center; 
+	  background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+nav {
+    font-family: 'Righteous', cursive; 
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    border-radius: 0;
+} 
+.modal-title{
+  font-family: 'Righteous', cursive;
+  font-size: 2.5em;
+  color: #5D98B4;
+}
+.modal-body {
+  font-family: 'Righteous', cursive;
+  font-size: 24px;
+  color: #5D98B4;
+}
+.navbar {
+  border-radius: 0 !important;
+  min-height: 52px;
+}
+.navbar-toggle {
+  float: left;
+  width: 20%;
+}
+.navbar-nav li a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+.navbar-brand {
+    color: rgb(238,69,126);
+    float: left; 
+}
+.navbar-header {
+  min-width: 11%;
+}
+.container {
+    font-family: 'Righteous', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    margin-top: 50px;
+    color: white;
+}
+.container h3 {
+  text-shadow: 2px 2px black;
+}
+.content-wrap {
+  flex: 1 0 auto;
+}
+footer{
+    padding: 30px;
+    background: black;
+    color: white;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+}
+.row {
+  width: 100%;
+  margin-left:0;
+  margin-right: 0;
+}
+.col-md-12 {
+  padding: 0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn{
+  font-size: 20px;
+}
+/*home page*/
+.howToGuide{
+    max-width: 600px;
+    background: rgba(8, 6, 6, 0.5);
+    border: 4px solid black;
+    color: white;
+    margin: auto;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Righteous', cursive;
+    padding: 10px;
+}
+.howToGuide h3 {
+  font-size: 1.7em;
+}
+.howToGuide p, .howToGuide label {
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+}
+.howToGuide p:first-of-type {
+  width: 75%;
+  margin: 10px auto 20px;
+}
+.howToGuide label {
+  margin-top: 12px;
+}
+.howToGuide input{
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   max-width: 100%;
+   text-align: center;
+}
+.jumbotron{
+    background: url(../images/header-image-mobile.jpg) center;
+    background: url(../images/portrait-logo.jpg) center;
+    background-position-x: center;
+    background-position-y: center; 
+    width: 100%;
+    height: 470px;
+}
+.jumbotron p {
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: 2px 2px grey;
+}
+
+#main-content ul li img {
+  border-radius: 50%;
+}
+
+#main-content ul {
+  list-style-type: none;
+}
+
+/*favorites page*/
+.box{
+
+    background: white;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.box img{
+  border-radius: 50px;
+}
+.favs-wrap {
+  margin-bottom: 5%;
+  padding: 20px 50px 50px;
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=file] {
+  margin-left: 25%;
+}
+/* Set a style for all buttons */
+button {
+    background-color: rgb(78,175,188);
+    color: white;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+.submit {
+    background-color: rgb(245,152,136);
+}
+button:hover {
+    background:rgb(91, 201, 216);
+    color: white;
+}
+.dropdown-toggle:focus {
+    background-color: pink;
+}
+.dropdown-toggle {
+    background-color: rgb(78,175,188);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.dropdown-toggle:hover {
+    background-color: rgb(98, 223, 240);
+    color: white;
+    border: 1px solid white;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.container2 {
+    padding: 60px;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+@-webkit-keyframes pulse {
+    55% {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+    75% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+  }
+  
+  @keyframes pulse {
+    55% {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+    75% {
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+  }
+  
+  .pulse {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  
+  .pulse:hover {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+  /* wobbble effect for name of site*/
+  .wobble {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+  .wobble-2 {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+  .wobble-3 {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .vibrate-1:hover {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2018-2-7 10:36:4
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+ @-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  
+
+  /* face affect wobble*/
+  .jello-horizontal:hover {
+	-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-2-7 11:1:34
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation jello-horizontal
+ * ----------------------------------------
+ */
+ @-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  /* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 40em) { 
+  .navbar-brand {
+      font-size: 30px;
+    }
+}
+
+ @media screen and (max-width: 600px) {
+    input [type="file"] {
+        margin-right: 5%;
+    }
+
+  }
+  
+  
