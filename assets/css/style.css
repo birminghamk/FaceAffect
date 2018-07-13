@@ -7,7 +7,7 @@ body {
 body {
     background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/90/42/3457dce0f21d524.jpg") center fixed;
     margin: 0 auto;
-    text-align: center; 
+    text-align: center;
 	  background-size: cover;
     display: flex;
     flex-direction: column;
@@ -16,11 +16,11 @@ body {
     height: 100vh;
 }
 nav {
-    font-family: 'Righteous', cursive; 
+    font-family: 'Righteous', cursive;
     background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     border-radius: 0;
-} 
+}
 .modal-title{
   font-family: 'Righteous', cursive;
   font-size: 2.5em;
@@ -141,9 +141,19 @@ footer{
 #main-content ul {
   list-style-type: none;
 }
-
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=file] {
+margin-left: 25%;
+}
 /*favorites page*/
-.box{
+/* .box{
 
     background: white;
     margin: 0 auto;
@@ -159,19 +169,7 @@ footer{
 }
 .wrapper {
     width: 100%;
-    margin: auto;
-}
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-input[type=file] {
-  margin-left: 25%;
-}
+    margin: auto; */
 /* Set a style for all buttons */
 button {
     background-color: rgb(78,175,188);

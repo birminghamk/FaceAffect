@@ -236,7 +236,7 @@ function display() {
         var emotion = snapshot.val().emotion;
         var emotionValue = snapshot.val().emotionValue;
         // Display these information on the HTML
-        $("#main-content").append("<ul><li><img width='200' height='200' src=" + imageURL + "/></li><li>Hi " + name + "!</li><li><p>You are " + emotionValue + "% " + emotion + ". We recomend you to listen to:</P></li></ul>");
+        $("#main-content").append("<ul><li><img width='200' height='200' src=" + imageURL + "/></li><li>Hi " + name + "!</li><li><p>You are " + emotionValue + "% " + emotion + ". We recommend you listen to:</p></li></ul>");
     });
 }
 
